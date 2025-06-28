@@ -3,6 +3,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Hero from './components/Hero.jsx';
 import Navbar from './components/Navbar.jsx';
+import About from './components/About.jsx';
 
 function App() {
   useEffect(() => {
@@ -17,6 +18,8 @@ function App() {
       <Hero />
       {/* You can add more components here */}
       <Navbar /> 
+      <Projects />
+      <About />
 
       Hello world!
     </main>
