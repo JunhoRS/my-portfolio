@@ -12,7 +12,7 @@ export default function Navbar() {
 
 
   return (
-    <header className="fixed top-0 left-0 w-full z-20 text-white" data-aos="fade-up">
+    <header className="fixed top-0 left-0 w-full z-20 text-white" data-aos="fade-up" data-aos-duration="300">
       <div className="container mx-auto flex items-center justify-between p-5">
         {/* LOGO */}
         <a className="text-4xl font-bold italic text-white" href="#">
@@ -38,6 +38,7 @@ export default function Navbar() {
           <a href="#contact" className="hover:text-purple-300">Contact</a>
         </nav>
       </div>
+      {/* Mobile Navigation */}
     </header>
   );
 }

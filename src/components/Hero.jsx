@@ -3,12 +3,33 @@ import Navbar from "./Navbar";
 
 export default function Hero() {
   return (
-    <div className="relative overflow-hidden min-h-[550px] sm:min-h-[650px] flex flex-col items-center">
-      <div
-        className="h-[500px] w-[450px] bg-gradient-to-r from-[#6d2897] to-[#bb61c5] absolute 
-        transform rotate-45 z-0 right-2 top-28 rounded-3xl"
-      ></div>
+    <section className="relative min-h-screen flex flex-col items-center justify-center text-center px-4">
+      {/* Circulo decorativo de fondo */}
       <Navbar />
-    </div>
+      <div className="absolute -top-10 -left-12 w-60 h-60 bg-[#cd3cf5] rounded-full blur-3xl opacity-50 z-0" />
+
+      {/* Contenido */}
+      <header className="relative z-10">
+        <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">Junho C.</h1>
+        <h2 className="text-xl md:text-2xl font-bold text-purple-300 mb-6">
+          FullStack Developer
+        </h2>
+        <p className="text-lg md:text-xl text-gray-200 max-w-xl mx-auto mb-6">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, Lorem ipsum dolor sit amet consectetur.
+        </p>
+
+        {/* Iconos o enlaces sociales */}
+        <div className="flex items-center justify-center space-x-4">
+          <a href="#">
+            <img
+              className="w-11 h-11 rounded-full border border-white hover:scale-105 transition-transform"
+              src="https://via.placeholder.com/48"
+              alt="Social"
+            />
+          </a>
+          {/* Puedes duplicar esto para más iconos */}
+        </div>
+      </header>
+    </section>
   );
 }   
