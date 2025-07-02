@@ -2,20 +2,16 @@ import React from 'react';
 
 export default function About() {
   return (
-    <section className="bg-white py-20">
-      <div className="container mx-auto px-4">
-        <div className="text-center">
-          <h2 className="text-3xl font-bold mb-4">About Us</h2>
-          <p className="text-lg text-gray-700 mb-8">
-            We are dedicated to providing the best service and experience for our users. Our team is passionate about creating innovative solutions that make a difference.
-          </p>
-          <a
-            href="#"
-            className="inline-block bg-blue-500 text-white px-6 py-3 rounded-full hover:bg-blue-600 transition duration-300"
-          >
-            Learn More
-          </a>
-        </div>
+    <section id="about"className="min-h-screen overflow-hidden flex items-center justify-center text-white px-4 sm:px-6">
+      <div className="max-w-6xl w-full grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12  items-center">
+        <figure data-aos="fade-right" data-aos-delay="500" className="flex flex-wrap justify-center gap-4 relative">
+          <div className="w-full lg:w-1/2">
+          
+          </div>
+          <figcaption className="absolute bottom-0 left-0 bg-black bg-opacity-50 text-white p-4 rounded-b-lg">
+            Sobre mí
+          </figcaption>
+        </figure>
       </div>
     </section>
   );
