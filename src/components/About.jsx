@@ -9,7 +9,7 @@ export default function About() {
           
           </div>
           <figcaption className="absolute bottom-0 left-0 bg-black bg-opacity-50 text-white p-4 rounded-b-lg">
-            Sobre mí
+            Sobre mí, FullStack
           </figcaption>
         </figure>
       </div>
