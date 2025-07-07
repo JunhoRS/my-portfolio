@@ -15,7 +15,7 @@ export default function Hero() {
           FullStack Developer
         </h2>
         <p className="text-lg md:text-xl text-gray-200 max-w-xl mx-auto mb-6">
-          Desarrollador de software con experiencia en tecnologías modernas, apasionado por crear soluciones innovadoras y eficientes.
+          Desarrollador de software con experiencia en tecnologías modernas, apasionado por crear soluciones innovadoras y eficientes para problemas complejos. Siempre aprendiendo y mejorando mis habilidades.
         </p>
 
         {/* Iconos o enlaces sociales */}
