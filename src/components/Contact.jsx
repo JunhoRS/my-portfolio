@@ -3,17 +3,14 @@ import imgHero from "../assets/hero.jpg";
 
 export default function Contact() {
   return (
-    <section id="contact" className="min-h-screen flex items-center justify-center text-white px-4 sm:px-6">
-      <div className="max-w-6xl w-full grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 items-center">
-        <figure data-aos="fade-right" data-aos-delay="500" className="flex flex-wrap justify-center gap-4 relative">
-          <div className="w-full lg:w-1/2">
-            <img src={imgHero} alt="Contact Us" className="w-full h-auto rounded-lg shadow-lg"/>
-          </div>
-          <figcaption className="absolute bottom-0 left-0 bg-black bg-opacity-50 text-white p-4 rounded-b-lg">
-            Contáctame
-          </figcaption>
-        </figure>
-      </div>
+    <section data-aos="fade-up" data-aos-delay="300" className="min-h-screen overflow-hidden flex items-center p-6 mt-10 relative">
+      <article className="w-full max-w-3xl mx-auto bg-white rounded-lg shadow-lg p-8">
+        <aside className="mb-6">
+        <div className="flex items-center mb-4">
+          
+        </div>
+        </aside>
+      </article>
     </section>
   );
 }
