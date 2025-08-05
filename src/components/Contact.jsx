@@ -10,6 +10,23 @@ export default function Contact() {
           
         </div>
         </aside>
+
+        <section className="p-8 w-full md:w-1/2">
+          <header className="mb-6">
+            <h2 className="text-4xl font-bold text-center text-white">Contact Us</h2>
+          </header>
+          <form className="space-y-6">
+            <div>
+              <label className="block mb-2 text-sm font-medium text-gray-700">Name</label>
+              <input
+                type="text"
+                className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500"
+                placeholder="Your Name"
+                required
+              />
+            </div>
+          </form>
+        </section>
       </article>
     </section>
   );
