@@ -12,7 +12,7 @@ export default function Hero() {
       <header className="relative z-10">
         <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">Junho C.</h1>
         <h2 className="text-xl md:text-2xl font-bold text-purple-300 mb-6">
-          FullStack Developer
+          FullStack Developer, Tech Enthusiast.
         </h2>
         <p className="text-lg md:text-xl text-gray-200 max-w-xl mx-auto mb-6">
           Desarrollador de software con experiencia en tecnologías modernas, apasionado por crear soluciones innovadoras y eficientes para problemas complejos. Siempre aprendiendo y mejorando mis habilidades.
