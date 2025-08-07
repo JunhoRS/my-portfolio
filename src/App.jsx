@@ -4,6 +4,7 @@ import 'aos/dist/aos.css';
 import Hero from './components/Hero.jsx';
 import About from './components/About.jsx';
 import Projects from './components/Projects.jsx';
+import Contact from './components/Contact.jsx';
 
 function App() {
   useEffect(() => {
@@ -16,9 +17,9 @@ function App() {
   return (
     <main className="bg-gray-950">
       <Hero />
-      {/* You can add more components here */}
       <About />
       <Projects />
+      <Contact />
     </main>
   )
 }
