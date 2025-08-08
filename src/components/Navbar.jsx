@@ -1,9 +1,8 @@
-import React,{useState} from 'react';
+import React from 'react';
 import { FiMenu } from 'react-icons/fi';
 
 
 export default function Navbar() {
-  const [isOpen, setIsOpen] = useState(false);
   const NavbarLinks = [
     {id:1, name: 'Home', href: '#home' },
     {id:2, name: 'About', href: '#about' },
