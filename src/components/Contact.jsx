@@ -1,5 +1,4 @@
 import React from "react";
-import imgHero from "../assets/hero.jpg";
 
 export default function Contact() {
   return (
