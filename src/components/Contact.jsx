@@ -16,11 +16,11 @@ export default function Contact() {
           </header>
           <form className="space-y-6">
             <div>
-              <label className="block mb-2 text-sm font-medium text-gray-700">Name</label>
+              <label className="block mb-2 text-sm font-medium text-gray-700">Junho</label>
               <input
                 type="text"
                 className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500"
-                placeholder="Your Name"
+                placeholder="Junho C. Ramos"
                 required
               />
             </div>
