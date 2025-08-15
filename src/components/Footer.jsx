@@ -8,7 +8,7 @@ export default function Footer() {
           &copy; {new Date().getFullYear()} Your Company Name. All rights reserved.
         </p>
         <p className="text-xs mt-2">
-          Built with ❤️ by Your Name
+          Construido por ❤️ by Junho Ramos
         </p>
       </div>
     </footer>
